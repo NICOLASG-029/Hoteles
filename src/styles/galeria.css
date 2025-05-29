@@ -1,0 +1,36 @@
+/* MenuRestaurante.css */
+.galeria {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .galeria h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .fila {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .foto-producto {
+    width: 30%; /* Cada foto ocupa el 30% del ancho del contenedor */
+    margin-bottom: 20px;
+  }
+  
+  .foto-producto img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .foto-producto p {
+    margin-top: 10px;
+    text-align: center;
+    color: #666;
+  }

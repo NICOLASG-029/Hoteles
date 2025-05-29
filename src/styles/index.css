@@ -1,0 +1,40 @@
+/*ESTILOS DEL NAVIGATOR*/
+.menu-desplegable {
+    margin-left: -50px;
+}
+
+/*ESTILSO DEL HOME*/
+
+.tarjeta h1{
+    font-weight: bolder;
+    font-size: 75px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.tarjeta-img {
+    margin: auto;
+    margin-right: -150px;
+}
+
+.tarjeta-img img{
+    width: 750px;
+    height: auto;
+}
+
+/*CARTAS ESTILOS*/
+.rs-elegante {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/3534750/pexels-photo-3534750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+}
+
+.rs-familiar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1378424/pexels-photo-1378424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+}
+
+.rs-terraza {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1546039/pexels-photo-1546039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+}

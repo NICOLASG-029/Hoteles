@@ -1,0 +1,56 @@
+/* styles.css */
+
+.contact-container {
+    display: flex;
+    height: 100vh;
+}
+
+.contact-info-container {
+    background-color: rgb(219, 219, 219);
+    color: black; /* Cambiado a negro */
+    padding: 40px;
+    width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.contact-image-container {
+    position: relative;
+    background-image: url('../assets/FotoContacto2.jpg');
+    background-size: cover;
+    background-position: left;
+    text-align: center;
+    padding: 40px;
+    color: black; /* Cambiado a negro */
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(78, 76, 76, 0.5); /* Ajusta la opacidad según tus preferencias */
+}
+
+.contact-image-container h1, .contact-image-container h2, .contact-image-container p {
+    color: white;
+    margin: 0;
+    text-align: left;
+}
+
+.contact-image-container h1 {
+    color: rgb(0, 0, 0); /* Cambiado a negro */
+}
+
+.division {
+    border-color: black;
+}

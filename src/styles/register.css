@@ -1,0 +1,60 @@
+.Register {
+    background-image: url(/src/assets/restaurant-mural-wallpaper_23-2148695092.avif);
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center;
+
+
+    margin: 0;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    font-size: larger;
+    text-align: center;
+    
+}
+
+.form-container {
+    background-color: aliceblue;
+    border-radius: 7px;
+    
+    height: 550px;
+    width: 550px;
+
+}
+
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    border-radius: 5px;
+    border: unset;
+    padding: 15px 30px;
+}
+
+.rbt{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    padding: 10px 20px;
+}
+
+.rbt:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.sr-only {
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}

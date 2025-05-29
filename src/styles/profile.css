@@ -1,0 +1,17 @@
+.barra-perfil {
+    width: 200px;
+    height: 100vh;
+}
+
+.barra-perfil a:hover{
+    background-color: aliceblue;
+    color: black !important;
+}
+
+.form-perfil {
+    padding: 100px;
+}
+
+.form-perfil form button{
+    margin: 5px;
+}

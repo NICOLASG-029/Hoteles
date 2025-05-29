@@ -1,0 +1,54 @@
+/* RestauranteInfo.css */
+.restaurante-info {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 450px;
+    height: 300px;
+    margin-right: 20px;
+  }
+  
+  .informacion {
+    display: flex;
+    align-items: center;
+    margin-right: 150px; /* Ajusta según sea necesario */
+  }
+  
+  .informacion h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .informacion p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .linea-separadora {
+    border-right: 1px solid rgb(194, 194, 194);
+    margin: 0 20px;
+    align-self: stretch;
+  }
+  
+.descripcion {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  /* Añade esta línea para centrar verticalmente */
+  }
+  
+  
+  .descripcion p {
+    margin: 5px 0;
+    color: #666;
+  }
